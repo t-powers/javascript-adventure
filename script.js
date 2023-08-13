@@ -1,8 +1,4 @@
-const button = document.querySelector("button");
-
-function greet() {
-  const name = prompt("What is your name?");
-  alert(`Hello ${name}, nice to see you!`);
-}
-
-button.addEventListener("click", greet);
+const sglDbl = 'Would you eat a "fish supper"?';
+const dblSgl = "I'm feeling blue.";
+console.log(sglDbl);
+console.log(dblSgl);
