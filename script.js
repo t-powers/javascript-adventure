@@ -1,4 +1,8 @@
-const sglDbl = 'Would you eat a "fish supper"?';
-const dblSgl = "I'm feeling blue.";
-console.log(sglDbl);
-console.log(dblSgl);
+const button = document.querySelector("button");
+
+function greet() {
+  const name = window.prompt("What is your name?");
+  window.alert(`Hello ${name}, nice to see you!`);
+}
+
+button.addEventListener("click", greet);
