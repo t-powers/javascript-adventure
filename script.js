@@ -1,8 +1,7 @@
-const button = document.querySelector("button");
+let x = 10;
 
-function greet() {
-  const name = window.prompt("What is your name?");
-  window.alert(`Hello ${name}, nice to see you!`);
+if (x > 5) {
+  console.log(`Yes, ${x} is greater.`);
+} else {
+  console.log(`No, ${x} is less than.`);
 }
-
-button.addEventListener("click", greet);
