@@ -5,7 +5,6 @@
 // console.log("%c My Friends", "color: orange;font-weight: bold");
 // console.table([foo, bar, baz])
 
-const a = 2;
-if (a > 2) {
-  console.log("Greater than 2.");
-}
+let myself = "Daddy";
+if ((myself[0] = "D")) alert("D is for Daddy");
+console.log(myself);
