@@ -40,7 +40,3 @@
 // else {
 //   alert("Access Denied");
 // }
-
-let myself = "Daddy";
-if ((myself[0] = "D")) alert("D is for Daddy");
-console.log(myself);
