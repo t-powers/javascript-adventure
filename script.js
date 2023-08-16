@@ -24,19 +24,17 @@
 // else{alert("You're 14 to 90 years old. Yikes.");}
 
 // entering password
-// let visitor = prompt("Who's there?");
+let pwd = prompt("Who are you?");
 
-// if (visitor == "Admin") {
-
-//   let password = prompt("Add password.");
-
-//   if (password == "TheMaster") {
-//     alert("Welcome");
-//   }
-// }
-// else if (visitor == '' || visitor == null) {
-//   alert("Wrong Password.");
-// }
-// else {
-//   alert("Access Denied");
-// }
+if (pwd === "Admin") {
+  let admin_pwd = prompt("Enter password now.");
+  if (admin_pwd !== "Master" || admin_pwd === "" || admin_pwd === null) {
+    alert("Invalid password.");
+  } else {
+    alert("Welcome");
+  }
+} else if (pwd === "" || pwd === null || pwd !== "Admin") {
+  alert("Invalid password");
+} else {
+  alert("Cancel");
+}
