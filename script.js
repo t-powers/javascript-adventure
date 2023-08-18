@@ -41,14 +41,17 @@
 
 //learning switch
 
-let fruit = "oranges";
-switch (fruit) {
-  case "oranges":
-    console.log("Oranges are sweet and delicious.");
+let veggies = "tomatoes";
+
+switch (veggies) {
+  case "tomatoes":
+  case "brussels sprouts":
+  case "carrots":
+  case "swiss chard":
+    console.log("One of my favorite vegetables.");
     break;
-  case "apples":
-    console.log("Apples are sweet and crisp.");
+  case "okra":
+  case "turnips":
   default:
-    console.log("All fruit is tasty and healthy.");
-    break;
+    console.log("A least favorite veggie.");
 }
