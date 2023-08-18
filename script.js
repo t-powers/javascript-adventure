@@ -45,6 +45,8 @@ let fruit = "oranges";
 switch (fruit) {
   case "oranges":
     console.log("Oranges are sweet and delicious.");
+    break;
   default:
     console.log("All fruit is tasty and healthy.");
+    break;
 }
