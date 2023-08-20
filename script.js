@@ -64,19 +64,22 @@
 // and a target string and replaces the source string,
 // with the target string, and returns the newly formed string
 
-// const myArray = ["I", "love", "chocolate", "frogs"];
-// myArray[0] = "We";
-// console.log(myArray);
-// const madeAString = myArray.join(" ");
-// console.log(madeAString);
+const myArray = ["I", "love", "chocolate", "frogs"];
+myArray[0] = "We";
+console.log(myArray);
+const madeAString = myArray.join(" ");
+console.log(madeAString);
 
-// the join() function takes an array, joins
-// all the array items together into a single
-// string, and returns this new string
+the join() function takes an array, joins
+all the array items together into a single
+string, and returns this new string
 
+using random function
 const x = Math.random() * 100;
 if (x >= 50) {
   console.log(`The random number ${x} is more or equal to 50.`);
 } else {
   console.log(`The number ${x} is less than 50.`);
 }
+
+
