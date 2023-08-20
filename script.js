@@ -41,17 +41,35 @@
 
 //learning switch
 
-let veggies = "tomatoes";
+// let veggies = "tomatoes";
 
-switch (veggies) {
-  case "tomatoes":
-  case "brussels sprouts":
-  case "carrots":
-  case "swiss chard":
-    console.log("One of my favorite vegetables.");
-    break;
-  case "okra":
-  case "turnips":
-  default:
-    console.log("A least favorite veggie.");
-}
+// switch (veggies) {
+//   case "tomatoes":
+//   case "brussels sprouts":
+//   case "carrots":
+//   case "swiss chard":
+//     console.log("One of my favorite vegetables.");
+//     break;
+//   case "okra":
+//   case "turnips":
+//   default:
+//     console.log("A least favorite veggie.");
+// }
+
+//learning functions()
+// const myText = "I am a string";
+// const newString = myText.replace("string", "sausage");
+// console.log(newString);
+// the replace() string function takes a source string,
+// and a target string and replaces the source string,
+// with the target string, and returns the newly formed string
+
+const myArray = ["I", "love", "chocolate", "frogs"];
+myArray[0] = "We";
+console.log(myArray);
+const madeAString = myArray.join(" ");
+console.log(madeAString);
+
+// the join() function takes an array, joins
+// all the array items together into a single
+// string, and returns this new string
