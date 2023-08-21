@@ -79,6 +79,8 @@
 // const newList = myList.map((myArray) => myArray / 2);
 // console.log(newList);
 
+
+//practising functions
 const animal = prompt("What is your favorite animal?");
 
 function favAnimal(animal) {
