@@ -81,10 +81,10 @@
 
 
 //practising functions
-const animal = prompt("What is your favorite animal?");
+// const animal = prompt("What is your favorite animal?");
 
-function favAnimal(animal) {
-  return animal + " is my favorite animal.";
-}
+// function favAnimal(animal) {
+//   return animal + " is my favorite animal.";
+// }
 
-console.log(favAnimal(animal));
+// console.log(favAnimal(animal));
