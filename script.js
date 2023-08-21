@@ -79,7 +79,6 @@
 // const newList = myList.map((myArray) => myArray / 2);
 // console.log(newList);
 
-
 //practising functions
 // const animal = prompt("What is your favorite animal?");
 
@@ -88,3 +87,14 @@
 // }
 
 // console.log(favAnimal(animal));
+
+//practising functions
+function sum(a, b) {
+  return a + b;
+}
+
+let a = prompt("First number");
+let b = prompt("And, second.");
+
+let result = sum(a, b);
+alert(result);
