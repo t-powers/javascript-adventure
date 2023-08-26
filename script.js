@@ -89,12 +89,8 @@
 // console.log(favAnimal(animal));
 
 //practising functions
-function sum(a, b) {
-  return a + b;
+function sumNum(a, b){
+  return a + b
 }
 
-let a = prompt("First number");
-let b = prompt("And, second.");
-
-let result = sum(a, b);
-alert(result);
+sumNum(1, 2);
