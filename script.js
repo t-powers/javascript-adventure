@@ -95,7 +95,7 @@
 
 // xy(1, 2);
 
-let xy = function sumNum(a, ...b) {
-  console.log(return 2 * (a + b));
-};
-xy(1, 2);
+// let xy = function sumNum(a, ...b) {
+//   console.log(return 2 * (a + b));
+// };
+// xy(1, 2);
