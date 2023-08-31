@@ -3,7 +3,7 @@
 // const baz = { name: "harry", age: 32, nervous: true };
 
 // console.log("%c My Friends", "color: orange;font-weight: bold");
-// console.table([foo, bar, baz])
+// console.table([foo, bar, baz]);
 
 // practice
 // let userAge = prompt("What is your age?");
@@ -89,8 +89,15 @@
 // console.log(favAnimal(animal));
 
 //practising functions
-// let xy = function sumNum(a, ...b){
-//   return (2*(a + b))
-// }
+// let xy = function sumNum(a, ...b) {
+//   return 2 * (a + b);
+// };
 
-// xy(1, 2,2,3);
+// xy(1, 2);
+
+
+let xy = function sumNum(a, ...b) {
+  return 2 * (a + b);
+};
+
+xy(1, 2);
