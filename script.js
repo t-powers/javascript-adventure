@@ -1,9 +1,12 @@
-// const foo = { name: "tony", age: 30, nervous: false };
-// const bar = { name: "dick", age: 31, nervous: false };
-// const baz = { name: "harry", age: 32, nervous: true };
+const foo = { name: "tony", age: 30, nervous: false };
+const bar = { name: "dick", age: 31, nervous: false };
+const baz = { name: "harry", age: 32, nervous: true };
+const moo = { name: "monkey", age: 30, nervous: false };
+const boo = { name: "dunky", age: 31, nervous: false };
+const too = { name: "punky", age: 32, nervous: true };
 
-// console.log("%c My Friends", "color: orange;font-weight: bold");
-// console.table([foo, bar, baz]);
+console.log("%c My Friends", "color: orange;font-weight: bold");
+console.table([foo, bar, baz, moo, boo, too]);
 
 // practice
 // let userAge = prompt("What is your age?");
@@ -41,20 +44,20 @@
 
 //learning switch
 
-let veggies = "okra";
+// let veggies = "okra";
 
-switch (veggies) {
-  case "tomatoes":
-  case "brussels sprouts":
-  case "carrots":
-  case "swiss chard":
-    console.log("One of my favorite vegetables.");
-    break;
-  case "okra":
-  case "turnips":
-  default:
-    console.log("A least favorite veggie.");
-}
+// switch (veggies) {
+//   case "tomatoes":
+//   case "brussels sprouts":
+//   case "carrots":
+//   case "swiss chard":
+//     console.log("One of my favorite vegetables.");
+//     break;
+//   case "okra":
+//   case "turnips":
+//   default:
+//     console.log("A least favorite veggie.");
+// }
 
 //learning functions()
 // const myText = "I am a string";
