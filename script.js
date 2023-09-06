@@ -41,7 +41,7 @@
 
 //learning switch
 
-let veggies = "swiss chard";
+let veggies = "okra";
 
 switch (veggies) {
   case "tomatoes":
