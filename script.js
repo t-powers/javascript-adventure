@@ -1,4 +1,4 @@
-// const foo = { name: "tom", age: 30, nervous: false };
+// const foo = { name: "tony", age: 30, nervous: false };
 // const bar = { name: "dick", age: 31, nervous: false };
 // const baz = { name: "harry", age: 32, nervous: true };
 
@@ -41,20 +41,20 @@
 
 //learning switch
 
-// let veggies = "tomatoes";
+let veggies = "swiss chard";
 
-// switch (veggies) {
-//   case "tomatoes":
-//   case "brussels sprouts":
-//   case "carrots":
-//   case "swiss chard":
-//     console.log("One of my favorite vegetables.");
-//     break;
-//   case "okra":
-//   case "turnips":
-//   default:
-//     console.log("A least favorite veggie.");
-// }
+switch (veggies) {
+  case "tomatoes":
+  case "brussels sprouts":
+  case "carrots":
+  case "swiss chard":
+    console.log("One of my favorite vegetables.");
+    break;
+  case "okra":
+  case "turnips":
+  default:
+    console.log("A least favorite veggie.");
+}
 
 //learning functions()
 // const myText = "I am a string";
@@ -99,3 +99,6 @@
 //   return 2 * (a + b);
 // };
 // console.log(xy(1, 2));
+
+// let x = prompt("What is the number?");
+// console.log(x);
