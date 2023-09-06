@@ -1,12 +1,12 @@
-const foo = { name: "tony", age: 30, nervous: false };
-const bar = { name: "dick", age: 31, nervous: false };
-const baz = { name: "harry", age: 32, nervous: true };
-const moo = { name: "monkey", age: 30, nervous: false };
-const boo = { name: "dunky", age: 31, nervous: false };
-const too = { name: "punky", age: 32, nervous: true };
+// const foo = { name: "tony", age: 30, nervous: false };
+// const bar = { name: "dick", age: 31, nervous: false };
+// const baz = { name: "harry", age: 32, nervous: true };
+// const moo = { name: "monkey", age: 30, nervous: false };
+// const boo = { name: "dunky", age: 31, nervous: false };
+// const too = { name: "punky", age: 32, nervous: true };
 
-console.log("%c My Friends", "color: orange;font-weight: bold");
-console.table([foo, bar, baz, moo, boo, too]);
+// console.log("%c My Friends", "color: orange;font-weight: bold");
+// console.table([foo, bar, baz, moo, boo, too]);
 
 // practice
 // let userAge = prompt("What is your age?");
@@ -96,12 +96,9 @@ console.table([foo, bar, baz, moo, boo, too]);
 //   return 2 * (a + b);
 // };
 
-// xy(1, 2);
+// xy(2, 2);
 
 // let xy = function sumNum(a, ...b) {
 //   return 2 * (a + b);
 // };
 // console.log(xy(1, 2));
-
-// let x = prompt("What is the number?");
-// console.log(x);
