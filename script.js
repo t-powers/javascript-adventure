@@ -96,7 +96,11 @@ let xy = function sumNum(a, ...b) {
   return 2 * (Number(a) + Number(b));
 };
 
+<<<<<<< HEAD
 console.log(xy(2, 2));
+=======
+// xy(2, 2);
+>>>>>>> 3062af633d3c5a1d103a2ef9a8ffe75045373db3
 
 // let xy = function sumNum(a, ...b) {
 //   return 2 * (a + b);
