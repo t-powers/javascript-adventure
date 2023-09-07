@@ -109,3 +109,7 @@
 
 // const calcFloat = (a, b) => a * b;
 // console.log(calcFloat(8, 3));
+
+// for (let i = 0; i < 5; i++){
+//     console.log(i)
+// }
