@@ -107,5 +107,5 @@
 // console.log(calcNumbers(2, 3));
 // console.log(calcNumbers(5, 5));
 
-const calcFloat = (a, b) => a % b;
-console.log(calcFloat(8, 3));
+// const calcFloat = (a, b) => a * b;
+// console.log(calcFloat(8, 3));
