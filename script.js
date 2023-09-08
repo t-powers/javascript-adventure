@@ -121,18 +121,18 @@
 //   console.log(i);
 // } while (i < 5);
 
-// const readline = require("readline").createInterface({
-//   input: process.stdin,
-//   output: process.stdout,
-// });
+const readline = require("readline").createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
 
-// readline.question("Who are you?", (name) => {
-//   console.log(`Hey there ${name}!`);
-//   readline.close();
-// });
-function countRemainingGames() {
-  for (let i = 5; i > 0; i--) {
-    console.log(`You have ${i} games remaining.`);
-  }
-}
-countRemainingGames();
+readline.question("Rock, Paper, or Scissors. Enter your pick:  ", (pick) => {
+  console.log(`You chose ${pick}!`);
+  readline.close();
+});
+// function countRemainingGames() {
+//   for (let i = 5; i > 0; i--) {
+//     console.log(`You have ${i} games remaining.`);
+//   }
+// }
+// countRemainingGames();
