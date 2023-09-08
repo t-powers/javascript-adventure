@@ -130,7 +130,9 @@
 //   console.log(`Hey there ${name}!`);
 //   readline.close();
 // });
-
-for (let i = 5; i > 0; i--) {
-  console.log(`You have ${i} games remaining.`);
+function countRemainingGames() {
+  for (let i = 5; i > 0; i--) {
+    console.log(`You have ${i} games remaining.`);
+  }
 }
+countRemainingGames();
