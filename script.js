@@ -131,7 +131,6 @@
 //   readline.close();
 // });
 
-// const prompt = require("prompt-sync")();
-
-// const name = prompt("What is your name? ");
-// console.log(`Hey there ${name}`);
+for (let i = 5; i > 0; i--) {
+  console.log(`You have ${i} games remaining.`);
+}
