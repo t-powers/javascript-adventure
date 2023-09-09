@@ -128,6 +128,7 @@
 //   output: process.stdout,
 // });
 
+<<<<<<< HEAD
 // readline.question("Rock, Paper, or Scissors. Enter your pick:  ", (pick) => {
 //   console.log(`You chose ${pick}!`);
 //   readline.close();
@@ -150,3 +151,15 @@ function playerChoice() {
     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
 }
 console.log(userPick);
+=======
+// readline.question("Who are you?", (name) => {
+//   console.log(`Hey there ${name}!`);
+//   readline.close();
+// });
+function countRemainingGames() {
+  for (let i = 5; i > 0; i--) {
+    console.log(`You have ${i} games remaining.`);
+  }
+}
+countRemainingGames();
+>>>>>>> parent of ec2ae2d (creating RPS game choice)
