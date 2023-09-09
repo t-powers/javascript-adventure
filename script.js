@@ -5,7 +5,7 @@
 // const boo = { name: "dunky", age: 31, nervous: false };
 // const too = { name: "punky", age: 32, nervous: true };
 
-const PromptSync = require("prompt-sync");
+// const PromptSync = require("prompt-sync");
 
 // console.log("%c My Friends", "color: orange;font-weight: bold");
 // console.table([foo, bar, baz, moo, boo, too]);
@@ -133,14 +133,20 @@ const PromptSync = require("prompt-sync");
 //   readline.close();
 // });
 
-const prompt = require("prompt-sync")();
-
-const playerPrompt = prompt("Choose rock, paper, scissors. ");
-console.log(`You chose ${playerPrompt}`);
-
-// function countRemainingGames() {
-//   for (let i = 5; i > 0; i--) {
-//     console.log(`You have ${i} games remaining.`);
-//   }
+// function playerChoice() {
+//   const prompt = require("prompt-sync")();
+//   const playerPrompt = prompt("Choose rock, paper, scissors. ");
+//   console.log(`You chose ${playerPrompt}`);
 // }
-// countRemainingGames();
+// playerChoice();
+
+function playerChoice() {
+  const prompt = require("prompt-sync")(); //prompt requirement
+  const playerPrompt = prompt("Choose rock, paper, scissors. "); //assign player's choice
+
+  let userString = playerPrompt;
+  let toLowerString = userString.toLowerCase(); //prep user response to match userPick condition inside playGame
+  const userPick =
+    toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
+}
+console.log(userPick);
