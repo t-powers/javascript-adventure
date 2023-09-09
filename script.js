@@ -140,24 +140,30 @@
 // }
 // playerChoice();
 
+// function playerChoice() {
+//   const prompt = require("prompt-sync")(); //prompt requirement
+//   const playerPrompt = prompt("Choose rock, paper, scissors. "); //assign player's choice
+
+//   const userString = playerPrompt;
+//   const toLowerString = userString.toLowerCase(); //prep user response to match userPick condition inside playGame
+//   const userPick =
+//     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
+// }
 function playerChoice() {
-  const prompt = require("prompt-sync")(); //prompt requirement
-  const playerPrompt = prompt("Choose rock, paper, scissors. "); //assign player's choice
+  const prompt = require("prompt-sync")();
+
+  const playerPrompt = prompt("Choose rock, paper, scissors. ");
 
   let userString = playerPrompt;
   let toLowerString = userString.toLowerCase(); //prep user response to match userPick condition inside playGame
   const userPick =
     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
 }
-console.log(userPick);
+console.log(playerChoice());
 
-// readline.question("Who are you?", (name) => {
-//   console.log(`Hey there ${name}!`);
-//   readline.close();
-// });
-function countRemainingGames() {
-  for (let i = 5; i > 0; i--) {
-    console.log(`You have ${i} games remaining.`);
-  }
-}
-countRemainingGames();
+// function countRemainingGames() {
+//   for (let i = 5; i > 0; i--) {
+//     console.log(`You have ${i} games remaining.`);
+//   }
+// }
+// countRemainingGames();
