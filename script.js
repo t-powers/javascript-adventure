@@ -5,6 +5,8 @@
 // const boo = { name: "dunky", age: 31, nervous: false };
 // const too = { name: "punky", age: 32, nervous: true };
 
+const PromptSync = require("prompt-sync");
+
 // console.log("%c My Friends", "color: orange;font-weight: bold");
 // console.table([foo, bar, baz, moo, boo, too]);
 
@@ -121,15 +123,21 @@
 //   console.log(i);
 // } while (i < 5);
 
-const readline = require("readline").createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// const readline = require("readline").createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
-readline.question("Rock, Paper, or Scissors. Enter your pick:  ", (pick) => {
-  console.log(`You chose ${pick}!`);
-  readline.close();
-});
+// readline.question("Rock, Paper, or Scissors. Enter your pick:  ", (pick) => {
+//   console.log(`You chose ${pick}!`);
+//   readline.close();
+// });
+
+const prompt = require("prompt-sync")();
+
+const playerPrompt = prompt("Choose rock, paper, scissors. ");
+console.log(`You chose ${playerPrompt}`);
+
 // function countRemainingGames() {
 //   for (let i = 5; i > 0; i--) {
 //     console.log(`You have ${i} games remaining.`);
