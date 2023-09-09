@@ -149,17 +149,15 @@
 //   const userPick =
 //     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
 // }
-function playerChoice() {
-  const prompt = require("prompt-sync")();
 
-  const playerPrompt = prompt("Choose rock, paper, scissors. ");
+const prompt = require("prompt-sync")();
 
-  let userString = playerPrompt;
-  let toLowerString = userString.toLowerCase(); //prep user response to match userPick condition inside playGame
-  const userPick =
-    toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
-}
-console.log(playerChoice());
+const playerPrompt = prompt("Choose rock, paper, scissors. ");
+
+const toLowerString = playerPrompt.toLowerCase(); //prep user response to match userPick condition inside playGame
+const userPick = toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
+
+console.log(userPick);
 
 // function countRemainingGames() {
 //   for (let i = 5; i > 0; i--) {
