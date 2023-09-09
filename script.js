@@ -129,6 +129,7 @@
 // });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // readline.question("Rock, Paper, or Scissors. Enter your pick:  ", (pick) => {
 //   console.log(`You chose ${pick}!`);
 //   readline.close();
@@ -152,6 +153,8 @@ function playerChoice() {
 }
 console.log(userPick);
 =======
+=======
+>>>>>>> parent of ec2ae2d (creating RPS game choice)
 // readline.question("Who are you?", (name) => {
 //   console.log(`Hey there ${name}!`);
 //   readline.close();
@@ -162,4 +165,7 @@ function countRemainingGames() {
   }
 }
 countRemainingGames();
+<<<<<<< HEAD
+>>>>>>> parent of ec2ae2d (creating RPS game choice)
+=======
 >>>>>>> parent of ec2ae2d (creating RPS game choice)
