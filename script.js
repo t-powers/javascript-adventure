@@ -159,21 +159,31 @@
 
 // console.log(userPick);
 
-// function countRemainingGames() {
-//   for (let i = 5; i > 0; i--) {
-//     console.log(`You have ${i} games remaining.`);
-//   }
-// }
-// countRemainingGames();
-function gameCounter() {
-  let game = 0;
-  do {
-    game++;
-    console.log(game);
-  } while (game < 5);
+function playing() {
+  console.log("Playing a game.");
+}
 
-  if (game === 5) {
-    console.log("Game Over");
+function countRemainingGames() {
+  for (let i = 5; i > 0; i--) {
+    console.log(`You have ${i} games remaining.`);
+    if (i === 5) {
+      console.log("Game Over");
+    } else {
+      playing();
+    }
   }
 }
-gameCounter();
+countRemainingGames();
+
+// function gameCounter() {
+//   let game = 0;
+//   do {
+//     game++;
+//     console.log(game);
+//   } while (game < 5);
+
+//   if (game === 5) {
+//     console.log("Game Over");
+//   }
+// }
+// gameCounter();
