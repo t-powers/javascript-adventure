@@ -162,7 +162,7 @@ function playing() {
   console.log(userPick);
 }
 
-function countRemainingGames() {
+function game() {
   for (let i = 4; i >= 0; i--) {
     console.log(`You have ${i} more games.`);
     if (i === 0) {
@@ -172,17 +172,4 @@ function countRemainingGames() {
     }
   }
 }
-countRemainingGames();
-
-// function gameCounter() {
-//   let game = 0;
-//   do {
-//     game++;
-//     console.log(game);
-//   } while (game < 5);
-
-//   if (game === 5) {
-//     console.log("Game Over");
-//   }
-// }
-// gameCounter();
+game();
