@@ -164,9 +164,9 @@ function playing() {
 }
 
 function countRemainingGames() {
-  for (let i = 5; i > 0; i--) {
-    console.log(`You have ${i} games remaining.`);
-    if (i === 5) {
+  for (let i = 4; i >= 0; i--) {
+    console.log(`You have ${i} more games.`);
+    if (i === 0) {
       console.log("Game Over");
     } else {
       playing();
