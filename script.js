@@ -123,33 +123,6 @@
 //   console.log(i);
 // } while (i < 5);
 
-// const readline = require("readline").createInterface({
-//   input: process.stdin,
-//   output: process.stdout,
-// });
-
-// readline.question("Rock, Paper, or Scissors. Enter your pick:  ", (pick) => {
-//   console.log(`You chose ${pick}!`);
-//   readline.close();
-// });
-
-// function playerChoice() {
-//   const prompt = require("prompt-sync")();
-//   const playerPrompt = prompt("Choose rock, paper, scissors. ");
-//   console.log(`You chose ${playerPrompt}`);
-// }
-// playerChoice();
-
-// function playerChoice() {
-//   const prompt = require("prompt-sync")(); //prompt requirement
-//   const playerPrompt = prompt("Choose rock, paper, scissors. "); //assign player's choice
-
-//   const userString = playerPrompt;
-//   const toLowerString = userString.toLowerCase(); //prep user response to match userPick condition inside playGame
-//   const userPick =
-//     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
-// }
-
 // function playing() {
 //   const prompt = require("prompt-sync")();
 
