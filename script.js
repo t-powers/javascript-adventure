@@ -150,26 +150,26 @@
 //     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
 // }
 
-function playing() {
-  const prompt = require("prompt-sync")();
+// function playing() {
+//   const prompt = require("prompt-sync")();
 
-  const playerPrompt = prompt("Choose rock, paper, scissors. ");
+//   const playerPrompt = prompt("Choose rock, paper, scissors. ");
 
-  const toLowerString = playerPrompt.toLowerCase(); //prep user response to match userPick condition inside playGame
-  const userPick =
-    toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
+//   const toLowerString = playerPrompt.toLowerCase(); //prep user response to match userPick condition inside playGame
+//   const userPick =
+//     toLowerString.charAt(0).toUpperCase() + toLowerString.slice(1);
 
-  console.log(userPick);
-}
+//   console.log(userPick);
+// }
 
-function game() {
-  for (let i = 5; i >= 0; i--) {
-    console.log(`You have ${i} more games.`);
-    if (i === 0) {
-      console.log("Game Over");
-    } else {
-      playing();
-    }
-  }
-}
-game();
+// function game() {
+//   for (let i = 5; i >= 0; i--) {
+//     console.log(`You have ${i} more games.`);
+//     if (i === 0) {
+//       console.log("Game Over");
+//     } else {
+//       playing();
+//     }
+//   }
+// }
+// game();
