@@ -146,12 +146,3 @@
 //   }
 // }
 // game();
-
-const newFunc = function (array, ...args) {
-  let a = array;
-  let b = args;
-  let c = a.filter((d) => !b.include(d));
-  return c;
-};
-
-console.log(newFunc([1, 2, 3], 3, 2));
