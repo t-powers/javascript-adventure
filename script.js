@@ -101,13 +101,14 @@
 // console.log(xy(3, 2));
 
 // let xy = function sumNum(a, ...b) {
-//   return 2 * (a + b);
+//   return (a + b);
 // };
-// console.log(xy(1, 2));
+// console.log(xy(4, 2));
 
-// const calcNumbers = (a, b) => a * b;
-// console.log(calcNumbers(2, 3));
-// console.log(calcNumbers(5, 5));
+const calcNumbers = (a, b) => a + b;
+
+console.log(calcNumbers(2, 3));
+console.log(calcNumbers(5, 3));
 
 // const calcFloat = (a, b) => a * b;
 // console.log(calcFloat(8, 3));
