@@ -146,8 +146,24 @@
 // }
 // game();
 
-const sumAll = (a = 1, b = 2) => {
-  a + b;
+const numList = [];
+
+const calcNums = (a, b) => {
+  if (a < b) {
+    for (let i = a; i <= b; i++) {
+      numList.push(i);
+    }
+  } else {
+    for (let i = a; i >= b; i--) {
+      numList.push(i);
+    }
+  }
+  return numList;
 };
+
+const sumAll = 0;
+const calcSum = calcNums(2,5);
+for (let i = 0; i < numList.length; i++) {
+  sumAll += numList[i];
+}
 return sumAll;
-console.log(sumAll);
