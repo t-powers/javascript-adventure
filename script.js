@@ -104,9 +104,9 @@
 //   return (a + b);
 // };
 // console.log(xy(4, 2));
-const myNums = [1, 3];
-myNums.reduce(calcNumbers);
-function calcNumbers = (a, b) => a + b;
+// const myNums = [1, 3];
+// myNums.reduce(calcNumbers);
+// function calcNumbers = (a, b) => a + b;
 
 // const calcFloat = (a, b) => a * b;
 // console.log(calcFloat(8, 3));
@@ -145,3 +145,9 @@ function calcNumbers = (a, b) => a + b;
 //   }
 // }
 // game();
+
+const sumAll = (a = 1, b = 2) => {
+  a + b;
+};
+return sumAll;
+console.log(sumAll);
