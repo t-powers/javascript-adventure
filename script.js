@@ -104,11 +104,9 @@
 //   return (a + b);
 // };
 // console.log(xy(4, 2));
-
-const calcNumbers = (a, b) => a + b;
-
-console.log(calcNumbers(2, 3));
-console.log(calcNumbers(5, 3));
+const myNums = [1, 3];
+myNums.reduce(calcNumbers);
+function calcNumbers = (a, b) => a + b;
 
 // const calcFloat = (a, b) => a * b;
 // console.log(calcFloat(8, 3));
