@@ -146,24 +146,33 @@
 // }
 // game();
 
-const numList = [];
+// const numList = [];
 
-const calcNums = (a, b) => {
-  if (a < b) {
-    for (let i = a; i <= b; i++) {
-      numList.push(i);
-    }
-  } else {
-    for (let i = a; i >= b; i--) {
-      numList.push(i);
-    }
-  }
-  return numList;
-};
+// const calcNums = (a, b) => {
+//   if (a < b) {
+//     for (let i = a; i <= b; i++) {
+//       numList.push(i);
+//     }
+//   } else {
+//     for (let i = a; i >= b; i--) {
+//       numList.push(i);
+//     }
+//   }
+//   return numList;
+// };
 
-const sumAll = 0;
-const calcSum = calcNums(2,5);
-for (let i = 0; i < numList.length; i++) {
-  sumAll += numList[i];
-}
-return sumAll;
+// const sumAll = 0;
+// const calcSum = calcNums(2,5);
+// for (let i = 0; i < numList.length; i++) {
+//   sumAll += numList[i];
+// }
+// return sumAll;
+
+
+const expenses = [50, 30, 25, 10, 45];
+
+const totalExpenses = expenses.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+
+console.log(`Total expenses: $${totalExpenses}`);
