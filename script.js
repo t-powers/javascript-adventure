@@ -168,11 +168,10 @@
 // }
 // return sumAll;
 
+const expenses = [30, 50, 30];
 
-const expenses = [50, 30, 25, 10, 45];
-
-const totalExpenses = expenses.reduce((accumulator, currentValue) => {
+const sumAll = expenses.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 }, 0);
 
-console.log(`Total expenses: $${totalExpenses}`);
+console.log(sumAll);
