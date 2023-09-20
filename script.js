@@ -168,10 +168,10 @@
 // }
 // return sumAll;
 
-const expenses = [30, 50, 30];
+// const expenses = [30, 50, 30];
 
-const sumAll = expenses.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue;
-}, 0);
+// const sumAll = expenses.reduce((accumulator, currentValue) => {
+//   return accumulator + currentValue;
+// }, 0);
 
-console.log(sumAll);
+// console.log(sumAll);
