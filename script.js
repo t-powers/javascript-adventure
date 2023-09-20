@@ -146,27 +146,21 @@
 // }
 // game();
 
-// const numList = [];
+const numList = [];
 
-// const calcNums = (a, b) => {
-//   if (a < b) {
-//     for (let i = a; i <= b; i++) {
-//       numList.push(i);
-//     }
-//   } else {
-//     for (let i = a; i >= b; i--) {
-//       numList.push(i);
-//     }
-//   }
-//   return numList;
-// };
-
-// const sumAll = 0;
-// const calcSum = calcNums(2,5);
-// for (let i = 0; i < numList.length; i++) {
-//   sumAll += numList[i];
-// }
-// return sumAll;
+const calcNums = (a, b) => {
+  if (a < b) {
+    for (let i = a; i <= b; i++) {
+      numList.push(i);
+    }
+  } else {
+    for (let i = a; i >= b; i--) {
+      numList.push(i);
+    }
+  }
+  return numList;
+};
+console.log(calcNums(6, 1));
 
 // const expenses = [30, 50, 30];
 
