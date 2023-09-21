@@ -146,21 +146,21 @@
 // }
 // game();
 
-const numList = [];
+// const numList = [];
 
-const calcNums = (a, b) => {
-  if (a < b) {
-    for (let i = a; i <= b; i++) {
-      numList.push(i);
-    }
-  } else {
-    for (let i = a; i >= b; i--) {
-      numList.push(i);
-    }
-  }
-  return numList;
-};
-console.log(calcNums(6, 1));
+// const calcNums = (a, b) => {
+//   if (a < b) {
+//     for (let i = a; i <= b; i++) {
+//       numList.push(i);
+//     }
+//   } else {
+//     for (let i = a; i >= b; i--) {
+//       numList.push(i);
+//     }
+//   }
+//   return numList;
+// };
+// console.log(calcNums(6, 1));
 
 // const expenses = [30, 50, 30];
 
@@ -169,3 +169,26 @@ console.log(calcNums(6, 1));
 // }, 0);
 
 // console.log(sumAll);
+
+// const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+// for (let i = 0; i<cats.length; i++) {
+//   console.log(cats[i]);
+// }
+
+const cats = ["Pete", "Biggles", "Jasmine"];
+
+let myFavoriteCats = "My cats are called ";
+
+for (let i = 0; i < cats.length; i++) {
+  if (i === cats.length - 1) {
+    // We are at the end of the array
+    myFavoriteCats += `and ${cats[i]}.`;
+    
+  } else {
+    myFavoriteCats += `${cats[i]}, `;
+    
+  }
+}
+
+console.log(myFavoriteCats); // "My cats are called Pete, Biggles, and Jasmine."
