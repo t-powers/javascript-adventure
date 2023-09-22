@@ -176,12 +176,20 @@
 //   console.log(cats[i]);
 // }
 
-function toUpper(string) {
-  return string.toUpperCase();
+// function toUpper(string) {
+//   return string.toUpperCase();
+// }
+
+// const cats = ["Pete", "Biggles", "Jasmine"];
+
+// const bigCats = cats.map(toUpper);
+
+// console.log(bigCats);
+
+
+
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+for (let i = 0; i < cats.length; i++) {
+  console.log(cats);
 }
-
-const cats = ["Pete", "Biggles", "Jasmine"];
-
-const bigCats = cats.map(toUpper);
-
-console.log(bigCats);
