@@ -187,10 +187,11 @@
 // console.log(bigCats);
 
 const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+let addCats = document.getElementById(addCats);
 
 function bigCats() {
   for (let i = 0; i < cats.length; i++) {
-    console.log(cats[i]);
+    return addCats.innerText(cats[i]);
   }
 }
 bigCats();
