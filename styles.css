@@ -13,11 +13,11 @@ h1 {
 
 h2 {
   font-size: 30px;
-  color:white;
+  color: white;
 }
 
 #addCats {
-  background-color: darkblue;
+  background-color: rgb(93, 93, 197);
 }
 button {
   font-size: 25px;
