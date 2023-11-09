@@ -186,3 +186,11 @@
 // const bigCats = cats.map(toUpper);
 
 // console.log(bigCats);
+
+
+// let names, admin;
+// names = "John";
+// admin = names;
+// console.log(admin)
+
+const ourPlant = "Earth";
