@@ -100,10 +100,10 @@
 
 // console.log(xy(3, 4));
 
-let xy = function sumNum(a, ...b) {
-  return (+a + +b);
-};
-console.log(xy(4, 2));
+// let xy = function sumNum(a, ...b) {
+//   return (+a + +b);
+// };
+// console.log(xy(4, 2));
 
 // const myNums = [1, 3];
 // myNums.reduce(calcNumbers);
@@ -112,7 +112,7 @@ console.log(xy(4, 2));
 // const calcFloat = (a, b) => a * b;
 // console.log(calcFloat(8, 3));
 
-// for (let i = 0; i < 5; i++){
+// for (let i = 5; i < 20; i++){
 //     console.log(i)
 // }
 
@@ -186,4 +186,3 @@ console.log(xy(4, 2));
 // const bigCats = cats.map(toUpper);
 
 // console.log(bigCats);
-
