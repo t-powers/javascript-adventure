@@ -81,7 +81,7 @@
 
 //using map function
 // const myList = [5, 10, 15, 20, 25];
-// const newList = myList.map((myArray) => myArray / 2);
+// const newList = myList.map((myArray) => myArray * 2);
 // console.log(newList);
 
 //practising functions
@@ -93,17 +93,18 @@
 
 // console.log(favAnimal(animal));
 
-//practising functions
+// practising functions
 // let xy = function sumNum(a, ...b) {
 //   return 2 * (Number(a) + Number(b));
 // };
 
-// console.log(xy(3, 2));
+// console.log(xy(3, 4));
 
-// let xy = function sumNum(a, ...b) {
-//   return (a + b);
-// };
-// console.log(xy(4, 2));
+let xy = function sumNum(a, ...b) {
+  return (+a + +b);
+};
+console.log(xy(4, 2));
+
 // const myNums = [1, 3];
 // myNums.reduce(calcNumbers);
 // function calcNumbers = (a, b) => a + b;
@@ -160,7 +161,7 @@
 //   }
 //   return numList;
 // };
-// console.log(calcNums(6, 1));
+// console.log(calcNums(10, 1));
 
 // const expenses = [30, 50, 30];
 
