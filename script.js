@@ -193,3 +193,7 @@
 // admin = names;
 // console.log(admin)
 
+function weatherCheck(weather){
+    return weather + "but so nice today!";
+}
+console.log(weatherCheck("sunny"));
