@@ -194,6 +194,6 @@
 // console.log(admin)
 
 function weatherCheck(weather){
-    return weather + "but so nice today!";
+    return weather + "and so nice today!";
 }
 console.log(weatherCheck("sunny"));
