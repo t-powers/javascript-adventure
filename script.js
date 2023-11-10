@@ -193,4 +193,3 @@
 // admin = names;
 // console.log(admin)
 
-const ourPlant = "Earth";
