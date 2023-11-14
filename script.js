@@ -193,7 +193,13 @@
 // admin = names;
 // console.log(admin)
 
-function weatherCheck(weather){
-    return weather + "and so nice today!";
+// function weatherCheck(weather){
+//     return weather + " and so nice today!";
+// }
+// console.log(weatherCheck("snowy"));
+
+function fibonacci(){
+    
+
 }
-console.log(weatherCheck("sunny"));
+fibonacci()
