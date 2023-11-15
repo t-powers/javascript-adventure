@@ -199,7 +199,11 @@
 // console.log(weatherCheck("snowy"));
 
 function fibonacci(){
-    
+    const prompt = require("prompt-sync")({ sigint: true });
+    const addNum = prompt("How many Fibonacci numbers do you want? ");
+    console.log(`You chose ${addNum}`);
 
+    
+    
 }
 fibonacci()
