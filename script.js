@@ -196,19 +196,3 @@
 //     return weather + " and so nice today!";
 // }
 // console.log(weatherCheck("snowy"));
-
-function fibonacci() {
-  const prompt = require("prompt-sync")({ sigint: true });
-  const userChoice = prompt("How many Fibonacci numbers do you want? ");
-  let a = 0,
-    b = 1,
-    addNum;
-
-  for (let i = 1; i <= userChoice; i++) {
-    console.log(a);
-    addNum = a + b;
-    a = b;
-    b = addNum;
-  }
-}
-fibonacci();
