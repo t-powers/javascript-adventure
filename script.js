@@ -196,17 +196,14 @@
 //     return weather + " and so nice today!";
 // }
 // console.log(weatherCheck("snowy"));
-
-// function applesAndOranges() {
-//   for (let i = 0; i < fruit.length; i++) {
-//     if (fruit[i] === "🍎") {
-//       appleShelf.textContent += "🍎";
-//     } else if (fruit[i] === "🍊") {
-//       orangeShelf.textContent += "🍊";
-//     }
-//   }
-// }
-
-// applesAndOranges();
-
+const fruit = ["apples", "oranges", "grapes"];
+function applesAndOranges() {
+  for (let i = 0; i < fruit.length; i++) {
+    if (fruit[i] === "🍎") {
+      appleShelf.textContent += "🍎";
+    } else if (fruit[i] === "🍊") {
+      orangeShelf.textContent += "🍊";
+    }
+  }console.log(fruit[i])
+}
 
