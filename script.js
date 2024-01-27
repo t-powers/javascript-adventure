@@ -46,20 +46,20 @@
 
 //learning switch
 
-let veggies = "okra";
+// let veggies = "okra";
 
-switch (veggies) {
-  case "tomatoes":
-  case "brussels sprouts":
-  case "carrots":
-  case "swiss chard":
-    console.log("One of my favorite vegetables.");
-    break;
-  case "okra":
-  case "turnips":
-  default:
-    console.log("A least favorite veggie.");
-}
+// switch (veggies) {
+//   case "tomatoes":
+//   case "brussels sprouts":
+//   case "carrots":
+//   case "swiss chard":
+//     console.log("One of my favorite vegetables.");
+//     break;
+//   case "okra":
+//   case "turnips":
+//   default:
+//     console.log("A least favorite veggie.");
+// }
 
 //learning functions()
 // const myText = "I am a string";
