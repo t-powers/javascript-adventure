@@ -11,14 +11,14 @@
 // console.table([foo, bar, baz, moo, boo, too]);
 
 // practice
-let userAge = prompt("What is your age?");
+// let userAge = prompt("What is your age?");
 
-if (userAge >=14 && userAge <=90) {
-  alert("Your ticket will be $1,000,000.");
-}
-else{
-  alert("Come back next year.")
-}
+// if (userAge >=14 && userAge <=90) {
+//   alert("Your ticket will be $1,000,000.");
+// }
+// else{
+//   alert("Come back next year.")
+// }
 
 //practice
 // let userAge = prompt("What is your age?");
