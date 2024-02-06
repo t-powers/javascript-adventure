@@ -1,9 +1,9 @@
-const foo = { name: "tony", age: 30, nervous: false };
-const bar = { name: "dick", age: 31, nervous: false };
-const baz = { name: "harry", age: 32, nervous: true };
-const moo = { name: "monkey", age: 30, nervous: false };
-const boo = { name: "dunky", age: 31, nervous: false };
-const too = { name: "punky", age: 32, nervous: true };
+// const foo = { name: "tony", age: 30, nervous: false };
+// const bar = { name: "dick", age: 31, nervous: false };
+// const baz = { name: "harry", age: 32, nervous: true };
+// const moo = { name: "monkey", age: 30, nervous: false };
+// const boo = { name: "dunky", age: 31, nervous: false };
+// const too = { name: "punky", age: 32, nervous: true };
 
 // const PromptSync = require("prompt-sync");
 
