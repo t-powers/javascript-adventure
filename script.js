@@ -80,9 +80,9 @@
 // string, and returns this new string
 
 //using map function
-// const myList = [5, 10, 15, 20, 25];
-// const newList = myList.map((myArray) => myArray * 2);
-// console.log(newList);
+const myList = [5, 10, 15, 20, 25];
+const newList = myList.map((myArray) => myArray * 2);
+console.log(newList);
 
 //practising functions
 // const animal = window.prompt("What is your favorite animal?");
