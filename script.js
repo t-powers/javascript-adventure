@@ -163,13 +163,13 @@
 // };
 // console.log(calcNums(10, 1));
 
-// const expenses = [30, 50, 30];
+const expenses = [30, 50, 30];
 
-// const sumAll = expenses.reduce((accumulator, currentValue) => {
-//   return accumulator + currentValue;
-// }, 0);
+const sumAll = expenses.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
 
-// console.log(sumAll);
+console.log(sumAll);
 
 // const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
 
