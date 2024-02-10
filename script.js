@@ -187,15 +187,15 @@
 
 // console.log(bigCats);
 
-let names, admin;
-names = "John";
-admin = names;
-console.log(admin)
+// let names, admin;
+// names = "John";
+// admin = names;
+// console.log(admin)
 
-function weatherCheck(weather){
-    return weather + " and so nice today!";
-}
-console.log(weatherCheck("snowy"));
+// function weatherCheck(weather){
+//     return weather + " and so nice today!";
+// }
+// console.log(weatherCheck("snowy"));
 
 // const fruit = ["apples", "oranges", "grapes"];
 // function applesAndOranges() {
