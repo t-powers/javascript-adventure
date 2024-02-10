@@ -183,7 +183,7 @@
 
 // const cats = ["Pete", "Biggles", "Jasmine"];
 
-// const bigCats = cats.map(toUpper);
+// const bigCats = cats.map(toUpperCase);
 
 // console.log(bigCats);
 
