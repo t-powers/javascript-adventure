@@ -198,12 +198,13 @@
 // console.log(weatherCheck("snowy"));
 
 const fruit = ["apples", "oranges", "grapes"];
+
 function applesAndOranges() {
   for (let i = 0; i < fruit.length; i++) {
     if (fruit[i] === "🍎") {
-      return appleShelf.textContent += "🍎";
+      appleShelf.textContent += "🍎";
     } else if (fruit[i] === "🍊") {
-      return orangeShelf.textContent += "🍊";
+      orangeShelf.textContent += "🍊";
     }
   }
 }
