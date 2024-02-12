@@ -94,11 +94,11 @@
 // console.log(favAnimal(animal));
 
 //practising functions
-// let xy = function sumNum(a, ...b) {
-//   return 2 * (Number(a) + Number(b));
-// };
+let xy = function sumNum(a, ...b) {
+  return 2 * (Number(a) + Number(b));
+};
 
-// console.log(xy(3, 4));
+console.log(xy(3, 4));
 
 // let xy = function sumNum(a, ...b) {
 //   return (+a + +b);
