@@ -29,20 +29,20 @@
 // else{alert("You're 14 to 90 years old. Yikes.");}
 
 // entering password
-// let pwd = prompt("Who are you?");
+let pwd = prompt("Who are you?");
 
-// if (pwd === "Admin") {
-//   let admin_pwd = prompt("Enter password now.");
-//   if (admin_pwd !== "Master" || admin_pwd === "" || admin_pwd === null) {
-//     alert("Invalid password.");
-//   } else {
-//     alert("Welcome");
-//   }
-// } else if (pwd === "" || pwd === null || pwd !== "Admin") {
-//   alert("Invalid password");
-// } else {
-//   alert("Cancel");
-// }
+if (pwd === "Admin") {
+  let admin_pwd = prompt("Enter password now.");
+  if (admin_pwd !== "Master" || admin_pwd === "" || admin_pwd === null) {
+    alert("Invalid password.");
+  } else {
+    alert("Welcome");
+  }
+} else if (pwd === "" || pwd === null || pwd !== "Admin") {
+  alert("Invalid password");
+} else {
+  alert("Cancel");
+}
 
 //learning switch
 
