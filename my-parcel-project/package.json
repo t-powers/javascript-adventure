@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "uuid": "^7.0.3"
   }
 }
