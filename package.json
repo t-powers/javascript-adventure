@@ -8,5 +8,6 @@
   },
   "scripts": {
     "start": "parcel src/index.html"
-  }
+  },
+  "type": "module"
 }

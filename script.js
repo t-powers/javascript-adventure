@@ -208,7 +208,6 @@
 //     }
 //   }
 // }
-
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+const { v4: uuidv4 } = require("uuid");
 console.log(uuidv4());
 
