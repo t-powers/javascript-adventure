@@ -209,3 +209,9 @@
 //   }
 // }
 
+// function appOrg() {
+//     fruit.forEach(function(fruitItem) {
+//         console.log(fruitItem);
+//     })
+// }
+// appOrg()
