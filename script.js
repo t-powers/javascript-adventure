@@ -215,3 +215,17 @@
 //     })
 // }
 // appOrg()
+
+const dreamHoliday = {
+  destination: "Cupertino, CA",
+  activity: "Jobs Theater at Apple Park",
+  accommodation: "plush hotel",
+  companion: "my lovely wife",
+};
+
+const {
+  destination,
+  activity,
+  accommodation,
+  companion,
+} = dreamHoliday`My dream weekend vacation would be traveling to ${destination} to visit ${activity}. Afterwards, I'd stay at a ${accommodation} with ${companion} and order room service.`;
