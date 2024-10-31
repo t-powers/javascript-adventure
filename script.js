@@ -216,16 +216,31 @@
 // }
 // appOrg()
 
-const dreamHoliday = {
-  destination: "Cupertino, CA",
-  activity: "Jobs Theater at Apple Park",
-  accommodation: "plush hotel",
-  companion: "my lovely wife",
-};
+// const dreamHoliday = {
+//   destination: "Cupertino, CA",
+//   activity: "Jobs Theater at Apple Park",
+//   accommodation: "plush hotel",
+//   companion: "my lovely wife",
+// };
 
-const {
-  destination,
-  activity,
-  accommodation,
-  companion,
-} = dreamHoliday`My dream weekend vacation would be traveling to ${destination} to visit ${activity}. Afterwards, I'd stay at a ${accommodation} with ${companion} and order room service.`;
+// const {
+//   destination,
+//   activity,
+//   accommodation,
+//   companion,
+// } = dreamHoliday`My dream weekend vacation would be traveling to ${destination} to visit ${activity}. Afterwards, I'd stay at a ${accommodation} with ${companion} and order room service.`;
+
+//Convert these Miles to KM!
+const distanceWalkedMilesArr = [140, 153, 161, 153, 128, 148];
+
+const conversionFactorMilesToKm = 1.6;
+
+function convertMilesToKilometers() {
+  const distanceWalkedKilometer = distanceWalkedMilesArr.map(function (
+    distanceMiles
+  ) {
+    return distanceWalkedKilometer * conversionFactorMilesToKm;
+  });
+}
+
+convertMilesToKilometers();
