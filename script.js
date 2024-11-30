@@ -264,7 +264,6 @@
 
 // convertMilesToKilometers();
 
-
 // //innerHTML alternative
 // const filmInput = document.getElementById('film-input')
 // const addBtn = document.getElementById('add-btn')
@@ -276,5 +275,27 @@
 //     newFilm.textContent = filmInput.value
 //     filmList.appendChild(newFilm)
 //     filmInput.value = ''
-// }) 
+// })
 
+function limesToCut(wedgesNeeded, limes) {
+  let limeCount = 0;
+  let wedgeCount = 0;
+  while (wedgeCount <= wedgesNeeded) {
+    switch (limes) {
+      case "small":
+        limeCount++;
+        wedgeCount += 6;
+        break;
+      case "medium":
+        limeCount++;
+        wedgeCount += 8;
+        break;
+      case "large":
+        limeCount++;
+        wedgeCount += 10;
+        break;
+    }
+    console.log(limeCount);
+    console.log(wedgeCount);
+  }
+}
