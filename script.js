@@ -295,7 +295,8 @@ function limesToCut(wedgesNeeded, limes) {
         wedgeCount += 10;
         break;
     }
-    console.log(limeCount);
-    console.log(wedgeCount);
+    
   }
+  console.log(limeCount);
+  console.log(wedgeCount);
 }
