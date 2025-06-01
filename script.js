@@ -277,27 +277,27 @@
 //     filmInput.value = ''
 // })
 
-const limes = ["small", "small", "large", "medium", "small"];
+// const limes = ["small", "small", "large", "medium", "small"];
 
-export function limesToCut(wedgesNeeded, limes) {
-  let wedges = 0;
-  let count = 0;
+// export function limesToCut(wedgesNeeded, limes) {
+//   let wedges = 0;
+//   let count = 0;
 
-  const limeWedges = {
-    small: 6,
-    medium: 8,
-    large: 10,
-  };
+//   const limeWedges = {
+//     small: 6,
+//     medium: 8,
+//     large: 10,
+//   };
 
-  for (const lime of limes) {
-    if (wedges >= wedgesNeeded) break;
-    wedges += limeWedges[lime];
-    count++;
-  }
+//   for (const lime of limes) {
+//     if (wedges >= wedgesNeeded) break;
+//     wedges += limeWedges[lime];
+//     count++;
+//   }
 
-  return count;
-}
-console.log(limesToCut(70,limes));
+//   return count;
+// }
+// console.log(limesToCut(70,limes));
 
 // function limesToCut(wedgesNeeded, limes) {
 //   let limeCount = 0;
@@ -321,3 +321,5 @@ console.log(limesToCut(70,limes));
 //   }
 
 // }
+
+
