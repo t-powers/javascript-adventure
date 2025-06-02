@@ -349,7 +349,7 @@
 // */
 
 // function sortByAge(arr) {
-//   return arr.sort((a, b) => a.age - b.age);
+//   return arr.sort((b, a) => b.age - a.age);
 // }
 
 // let john = { name: "John", age: 25 };
@@ -364,3 +364,15 @@
 // console.log(arr[0].name); // John
 // console.log(arr[1].name); // Mary
 // console.log(arr[2].name); // Pete
+
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 29 };
+
+// let arr = [ john, pete, mary ];
+
+// function getAverageAge(arr){
+//   return arr.reduce((acc, ages)=>acc + ages.age, 0)/arr.length
+// }
+
+// console.log( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
